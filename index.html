@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noah — Web Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- BG Glows -->
+<div class="bg-glow bg-glow-1"></div>
+<div class="bg-glow bg-glow-2"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">noah.</div>
+  <div class="nav-links">
+    <a href="#home" class="active">Home</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#connect">Connect</a>
+  </div>
+  <a href="#" class="nav-cta">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+    Download Resume
+  </a>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-content">
+    <p class="hero-greeting">Hey, I am <span>Noah</span></p>
+    <h1 class="hero-title">Web<br>developer</h1>
+    <p class="hero-desc">Crafting digital experiences that blend beautiful design with powerful functionality. Turning ideas into elegant, high-performance web solutions.</p>
+    <div class="hero-btns">
+      <a href="#connect" class="btn-primary">Hire me</a>
+      <a href="mailto:noah@example.com" class="btn-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Testimonial -->
+  <div class="testimonial-card">
+    <div class="quote-icon">"</div>
+    <p>Working with Noah was an absolute pleasure. The attention to detail and creativity brought our vision to life beyond expectations.</p>
+    <div class="testimonial-author">
+      <div class="author-avatar">CA</div>
+      <div class="author-info">
+        <div class="name">Caroline Abbott</div>
+        <div class="role">Business Owner</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Visual Right Side -->
+  <div class="hero-visual">
+    <!-- Rings -->
+    <div class="avatar-ring"></div>
+    <div class="avatar-ring avatar-ring-2"></div>
+
+    <!-- Tech badges -->
+    <div class="tech-badge tech-html" title="HTML5">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><path d="M5 3l2.3 25.7L16 31l8.7-2.3L27 3H5z" fill="#E44D26"/><path d="M16 28.4l7-1.9 2-22.5H16v24.4z" fill="#F16529"/><path d="M16 13.5H11.2l-.3-3.5H16V6.5H7.2l.8 9h8v-2zm0 8l-5.8-1.6-.4-4.4H6.3l.7 8.5L16 26v-4.5z" fill="#fff"/></svg>
+    </div>
+
+    <div class="tech-badge tech-css" title="CSS3">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><path d="M5 3l2.3 25.7L16 31l8.7-2.3L27 3H5z" fill="#264DE4"/><path d="M16 28.4l7-1.9 2-22.5H16v24.4z" fill="#2965F1"/><path d="M16 13.5h4.8l-.4 4-4.4 1.2v4.5l5.8-1.6 1.5-16H16v3.5h4.8l.3 3.5H16v1.4z" fill="#fff"/><path d="M16 6.5H7.2l.8 9H16V12H11.2l-.3-3.5H16V6.5zm0 7H11.5l.4 4.4L16 19v-4l-4.4-1.2.4-4 1.2 4z" fill="#ebebeb"/></svg>
+    </div>
+
+    <div class="tech-badge tech-js" title="JavaScript">
+      <svg width="26" height="26" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="4" fill="#F7DF1E"/><path d="M20.5 24.2c.6 1 1.4 1.7 2.7 1.7 1.2 0 1.9-.6 1.9-1.3 0-.9-.8-1.2-2-1.8l-.7-.3c-2-.9-3.3-2-3.3-4.2 0-2 1.6-3.6 4-3.6 1.7 0 3 .6 3.9 2.2l-2.1 1.4c-.5-.9-1-.9-1.8-.9-.8 0-1.3.5-1.3 1.1 0 .8.5 1.1 1.7 1.6l.7.3c2.3 1 3.6 2 3.6 4.3 0 2.4-1.9 3.8-4.4 3.8-2.5 0-4.1-1.2-4.9-2.8l2-1.5zm-9.8.2c.4.8.8 1.4 1.8 1.4.9 0 1.5-.4 1.5-1.8V15h2.5v9.2c0 3-1.8 4.3-4.3 4.3-2.3 0-3.7-1.2-4.3-2.7l2.8-1.1z" fill="#000"/></svg>
+    </div>
+
+    <div class="tech-badge tech-figma" title="Figma">
+      <svg width="22" height="28" viewBox="0 0 38 57" fill="none"><path d="M19 28.5A9.5 9.5 0 1128.5 19 9.5 9.5 0 0119 28.5z" fill="#1ABCFE"/><path d="M9.5 47.5A9.5 9.5 0 019.5 28.5h9.5V47.5A9.5 9.5 0 019.5 47.5z" fill="#0ACF83"/><path d="M9.5 28.5A9.5 9.5 0 019.5 9.5h9.5V28.5H9.5z" fill="#A259FF"/><path d="M19 9.5h9.5a9.5 9.5 0 110 19H19V9.5z" fill="#F24E1E"/><path d="M19 .5h9.5a9.5 9.5 0 110 19H19V.5z" fill="#FF7262"/></svg>
+    </div>
+
+    <!-- SVG Person -->
+    <div class="avatar-placeholder">
+      <svg class="person-svg" viewBox="0 0 260 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="130" cy="320" rx="85" ry="55" fill="#C45A10" opacity=".3"/>
+        <rect x="55" y="220" width="150" height="140" rx="30" fill="#D4661A"/>
+        <rect x="55" y="220" width="70" height="140" rx="20" fill="#C45A10"/>
+        <rect x="95" y="220" width="70" height="80" rx="10" fill="#E8C89A"/>
+        <ellipse cx="130" cy="155" rx="58" ry="65" fill="#E8C89A"/>
+        <ellipse cx="130" cy="110" rx="58" ry="35" fill="#7A4A20"/>
+        <rect x="72" y="100" width="116" height="50" rx="15" fill="#7A4A20"/>
+        <ellipse cx="130" cy="200" rx="40" ry="22" fill="#7A4A20"/>
+        <ellipse cx="110" cy="160" rx="9" ry="10" fill="#fff"/>
+        <ellipse cx="150" cy="160" rx="9" ry="10" fill="#fff"/>
+        <ellipse cx="112" cy="162" rx="6" ry="7" fill="#3A2010"/>
+        <ellipse cx="152" cy="162" rx="6" ry="7" fill="#3A2010"/>
+        <ellipse cx="114" cy="161" rx="2" ry="2" fill="#fff"/>
+        <ellipse cx="154" cy="161" rx="2" ry="2" fill="#fff"/>
+        <path d="M108 185 Q130 200 152 185" stroke="#7A4A20" stroke-width="3" stroke-linecap="round" fill="none"/>
+        <ellipse cx="130" cy="175" rx="6" ry="4" fill="#D4A882"/>
+        <rect x="20" y="225" width="42" height="120" rx="21" fill="#C45A10"/>
+        <rect x="198" y="225" width="42" height="100" rx="21" fill="#C45A10"/>
+        <ellipse cx="220" cy="332" rx="18" ry="14" fill="#E8C89A"/>
+        <rect x="224" y="310" width="12" height="26" rx="6" fill="#E8C89A"/>
+        <ellipse cx="41" cy="342" rx="16" ry="13" fill="#E8C89A"/>
+        <rect x="28" y="280" width="26" height="50" rx="8" fill="#F4640A"/>
+        <rect x="30" y="285" width="22" height="10" rx="3" fill="#FF8C45"/>
+        <ellipse cx="130" cy="375" rx="80" ry="10" fill="rgba(244,100,10,0.15)"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Lightning bolts -->
+  <div class="bolt bolt-1">⚡</div>
+  <div class="bolt bolt-2">⚡</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="section-label reveal">What I do</p>
+  <h2 class="section-title reveal">My Skills</h2>
+  <p class="section-desc reveal">A multidisciplinary toolkit spanning product management, AI, data, and engineering — built to turn ideas into impact.</p>
+
+  <div class="skills-grid">
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">📋</div>
+      <div class="skill-name">Product Management</div>
+      <ul class="skill-list">
+        <li>Product Requirement Docs (PRD/FSD)</li>
+        <li>Product Roadmapping</li>
+        <li>0→1 Product Development</li>
+        <li>MVP Definition & Prioritization</li>
+        <li>User Stories & Acceptance Criteria</li>
+        <li>Product Lifecycle Management</li>
+        <li>Customer Journey Design</li>
+      </ul>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">🤖</div>
+      <div class="skill-name">AI & Intelligence</div>
+      <ul class="skill-list">
+        <li>AI Product Design</li>
+        <li>Generative AI Product Development</li>
+        <li>Prompt Design & Optimization</li>
+        <li>AI-Assisted Decision Systems</li>
+        <li>OCR & Document Intelligence</li>
+        <li>Face Match & Identity Verification AI</li>
+        <li>Aadhaar XML APIs</li>
+      </ul>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">📊</div>
+      <div class="skill-name">Data & Analytics</div>
+      <ul class="skill-list">
+        <li>Data-Driven Product Decisions</li>
+        <li>Operational Analytics</li>
+        <li>Performance Metrics & KPI Tracking</li>
+        <li>Analytics Dashboards</li>
+        <li>SQL</li>
+        <li>Advanced Excel / Google Sheets</li>
+        <li>Workflow Automation</li>
+      </ul>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">💻</div>
+      <div class="skill-name">Tech & Development</div>
+      <ul class="skill-list">
+        <li>HTML, CSS & JavaScript</li>
+        <li>React.js</li>
+        <li>REST API Integrations</li>
+        <li>Postman & Swagger</li>
+        <li>OCR APIs</li>
+        <li>System Integration Workflows</li>
+      </ul>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">🛠️</div>
+      <div class="skill-name">Tools & Platforms</div>
+      <ul class="skill-list">
+        <li>Jira & Confluence</li>
+        <li>Postman & Swagger</li>
+        <li>Analytics Dashboards</li>
+        <li>Advanced Excel / Google Sheets</li>
+        <li>SQL</li>
+        <li>Agile / Scrum Methodologies</li>
+      </ul>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">🤝</div>
+      <div class="skill-name">Leadership & Strategy</div>
+      <ul class="skill-list">
+        <li>Cross-Functional Collaboration</li>
+        <li>Stakeholder Management</li>
+        <li>Problem Solving & Strategic Thinking</li>
+        <li>Process Optimization</li>
+        <li>Product Training & Adoption</li>
+        <li>Performance Metrics & KPI Tracking</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="section-label reveal">What I've built</p>
+  <h2 class="section-title reveal">Projects</h2>
+  <p class="section-desc reveal">AI-powered products shipped from concept to production — driving real operational impact.</p>
+
+  <div class="projects-grid">
+
+    <!-- PCVC -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">🛡️</div>
+        <span class="project-badge">AI · Identity</span>
+      </div>
+      <div class="project-name">NAPCVC / PCVC</div>
+      <div class="project-tagline">AI-Powered Customer Verification Platform</div>
+      <p class="project-desc">Led development of an AI-powered verification platform integrating Face Match, Liveness Detection, OCR, TTS/STT, and Aadhaar XML APIs to fully automate customer identity verification at scale.</p>
+      <div class="project-metrics">
+        <div class="metric"><span class="metric-dot"></span>40% less manual workload</div>
+        <div class="metric"><span class="metric-dot"></span>25% faster approvals</div>
+      </div>
+      <div class="project-tags">
+        <span class="project-tag">Face Match</span>
+        <span class="project-tag">OCR</span>
+        <span class="project-tag">TTS/STT</span>
+        <span class="project-tag">Aadhaar XML</span>
+        <span class="project-tag">Liveness Detection</span>
+      </div>
+    </div>
+
+    <!-- Instacheck -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">⚡</div>
+        <span class="project-badge">GenAI · FinTech</span>
+      </div>
+      <div class="project-name">Instacheck</div>
+      <div class="project-tagline">GenAI Eligibility Decision Engine</div>
+      <p class="project-desc">Built a GenAI-assisted eligibility evaluation engine to automate financial, medical, and documentation eligibility checks during customer onboarding — delivering structured recommendations in under 60 seconds.</p>
+      <div class="project-metrics">
+        <div class="metric"><span class="metric-dot"></span>40% faster reviews</div>
+        <div class="metric"><span class="metric-dot"></span>25% better conversion</div>
+      </div>
+      <div class="project-tags">
+        <span class="project-tag">Generative AI</span>
+        <span class="project-tag">Prompt Design</span>
+        <span class="project-tag">Decision Logic</span>
+        <span class="project-tag">Onboarding</span>
+      </div>
+    </div>
+
+    <!-- InstaVerify 2.0 -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">✅</div>
+        <span class="project-badge">AI · Workflow</span>
+      </div>
+      <div class="project-name">InstaVerify 2.0</div>
+      <div class="project-tagline">AI-Assisted Customer Verification Workflow</div>
+      <p class="project-desc">Redesigned verification workflows using AI-driven automation and rule-based validation to simplify identity and document verification — automatically detecting mismatches across onboarding channels.</p>
+      <div class="project-metrics">
+        <div class="metric"><span class="metric-dot"></span>35% fewer manual steps</div>
+        <div class="metric"><span class="metric-dot"></span>Higher accuracy</div>
+      </div>
+      <div class="project-tags">
+        <span class="project-tag">AI Automation</span>
+        <span class="project-tag">Rule Engine</span>
+        <span class="project-tag">Document Validation</span>
+        <span class="project-tag">Onboarding</span>
+      </div>
+    </div>
+
+    <!-- InstaFR -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">📄</div>
+        <span class="project-badge">OCR · InsurTech</span>
+      </div>
+      <div class="project-name">InstaFR</div>
+      <div class="project-tagline">Intelligent Document Recognition System</div>
+      <p class="project-desc">Developed an AI-enabled document processing solution using OCR and document classification to automate insurance document verification — enabling automatic extraction and validation during onboarding.</p>
+      <div class="project-metrics">
+        <div class="metric"><span class="metric-dot"></span>20% faster processing</div>
+        <div class="metric"><span class="metric-dot"></span>Fewer errors</div>
+      </div>
+      <div class="project-tags">
+        <span class="project-tag">OCR</span>
+        <span class="project-tag">Document Classification</span>
+        <span class="project-tag">Insurance</span>
+        <span class="project-tag">Automation</span>
+      </div>
+    </div>
+
+    <!-- InstaQuote -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">💰</div>
+        <span class="project-badge">InsurTech · Tools</span>
+      </div>
+      <div class="project-name">InstaQuote</div>
+      <div class="project-tagline">Intelligent Premium Calculation Tool</div>
+      <p class="project-desc">Designed a digital premium calculation tool enabling advisors to generate instant insurance plan quotes during onboarding — translating complex pricing logic into a seamless product feature.</p>
+      <div class="project-metrics">
+        <div class="metric"><span class="metric-dot"></span>30% faster calculations</div>
+        <div class="metric"><span class="metric-dot"></span>Better advisor UX</div>
+      </div>
+      <div class="project-tags">
+        <span class="project-tag">Premium Logic</span>
+        <span class="project-tag">Insurance</span>
+        <span class="project-tag">Advisor Tools</span>
+        <span class="project-tag">Policy Comparison</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <p class="section-label reveal">Career journey</p>
+  <h2 class="section-title reveal">Experience</h2>
+  <p class="section-desc reveal">A track record of delivering impactful work across agencies, startups, and enterprises.</p>
+
+  <div class="timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-period">2022 — Present</div>
+        <div class="timeline-role">Senior Web Developer</div>
+        <div class="timeline-company">Creative Digital Agency</div>
+        <div class="timeline-desc">Leading frontend development for enterprise clients, architecting scalable React applications, and mentoring junior developers. Reduced page load times by 40% across all client projects.</div>
+      </div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-period">2020 — 2022</div>
+        <div class="timeline-role">Full Stack Developer</div>
+        <div class="timeline-company">TechStart Inc.</div>
+        <div class="timeline-desc">Built and maintained multiple SaaS platforms from the ground up. Collaborated closely with design and product teams to ship features used by 50k+ active users.</div>
+      </div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-period">2018 — 2020</div>
+        <div class="timeline-role">Frontend Developer</div>
+        <div class="timeline-company">Pixel & Code Studio</div>
+        <div class="timeline-desc">Started my professional journey building responsive websites and interactive web experiences for small to mid-size businesses across various industries.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONNECT -->
+<section id="connect">
+  <p class="section-label reveal">Let's talk</p>
+  <h2 class="section-title reveal">Connect</h2>
+
+  <div class="connect-grid">
+    <div class="connect-info reveal">
+      <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Drop me a message and let's create something great together.</p>
+      <div class="social-links">
+        <a href="#" class="social-link" title="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 016 0C17 4.7 18 5 18 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6C20.6 21.8 24 17.3 24 12c0-6.6-5.4-12-12-12z"/></svg>
+        </a>
+        <a href="#" class="social-link" title="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 2H3.6A1.6 1.6 0 002 3.6v16.8A1.6 1.6 0 003.6 22h16.8a1.6 1.6 0 001.6-1.6V3.6A1.6 1.6 0 0020.4 2zM8 19H5V9h3v10zm-1.5-11.3a1.75 1.75 0 110-3.5 1.75 1.75 0 010 3.5zM19 19h-3v-5.6c0-3.4-4-3.1-4 0V19h-3V9h3v1.8C13 8 19 7.8 19 13.4V19z"/></svg>
+        </a>
+        <a href="#" class="social-link" title="Twitter/X">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="#" class="social-link" title="Dribbble">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm8 8.3c1.2 1.5 1.9 3.4 2 5.5-2.9-.6-5.6-.5-8 .1-.3-.7-.6-1.4-.9-2.1 2.8-1.1 5.2-2.6 6.9-3.5zm-1.4-1.4c-1.6.9-3.8 2.2-6.4 3.2C11 8 9.6 5.9 8 4.1 10.8 3 13.9 3.5 16.6 6.9zM6.1 4.9c1.7 1.9 3.1 4.1 4.3 6.3-3 .8-6 1.1-8.1 1.2.5-3 2-5.6 3.8-7.5zM2 12.4c2.3-.1 5.5-.5 8.8-1.4.3.6.5 1.2.8 1.8-3.2.9-5.9 2.8-7.8 5.1C2.6 16.5 2 14.5 2 12.4zm3 6.8c1.8-2.2 4.4-4 7.4-4.9.9 2.3 1.5 4.8 1.8 7.3C11 22 9 21.5 7.2 20.6l-2.2-1.4zm5.9 2.6c-.3-2.4-.9-4.8-1.7-7 2.3-.5 4.9-.5 7.6.2-.6 3.1-2.5 5.8-5.9 6.8z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-form reveal">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="your@email.com">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Subject</label>
+        <input type="text" placeholder="Project inquiry">
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea placeholder="Tell me about your project..."></textarea>
+      </div>
+      <button class="btn-primary" style="width:100%;padding:15px;font-size:15px;border-radius:14px;cursor:pointer" onclick="this.textContent='Message sent! ✓';this.style.background='#2d9e5e'">Send Message</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 <span>noah.</span> — All rights reserved.</p>
+  <p>Designed & built with <span>♥</span></p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
